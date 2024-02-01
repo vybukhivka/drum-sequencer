@@ -6,9 +6,10 @@ function SequencerSteps({ steps, activeStep }) {
     <div className="sequencer-steps">
       {steps.map((step, index) => (
         <button 
-        key={index} 
-        className={`step ${index === activeStep ? 'active' : ''}`}
-        >{step.content}
+          key={index} 
+          className={`step ${index === activeStep ? 'active' : ''}`}
+        >
+          {step.content}
         </button>
       ))}
     </div>
