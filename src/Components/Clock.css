@@ -1,0 +1,32 @@
+.clock-container {
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.bpm-label {
+  display: flex;
+  align-items: center;
+}
+
+.clock-indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;  
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 50%);
+  transition: background-color 0.2s ease;
+}
+
+.clock-indicator.active {
+  background-color: rgba(255, 0, 0, 0.647);
+}
+ 
+input {
+  background-color: hsl(0, 0%, 60%);
+  border: none;
+  border-radius: 5px;
+  width: 2.3rem;
+  margin-left: 0.1rem;
+  text-align: center;
+}

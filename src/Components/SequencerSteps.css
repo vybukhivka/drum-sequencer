@@ -1,0 +1,24 @@
+.sequencer-steps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+  min-width: 400px;
+}
+
+.step {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-family: monospace;
+  background-color: hsl(0, 0%, 60%);
+  color: hsl(0, 0%, 10%);
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  transition: color 0.01s ease;
+}
+
+.step.active{
+  color: rgb(186, 0, 0);
+}
